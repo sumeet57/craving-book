@@ -83,7 +83,7 @@ function Recipes() {
       const data = await response.json();
       setMealInfo(data.meals[0]);
 
-      gsap.to(".box", {
+      gsap.to(".boxr", {
         filter: "blur(5px)",
       });
 

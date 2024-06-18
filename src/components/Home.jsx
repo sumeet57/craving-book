@@ -81,7 +81,11 @@ function Home() {
       {/* Loading screen */}
       {loading && (
         <div className="loading_screen pt-16 top-0 left-0 w-full h-screen fixed bg-black flex justify-center items-center">
-          <div className="text-white font-bold uppercase tracking-widest text-2xl flex justify-center items-center">
+          <div
+            className={`text-white text-center font-bold uppercase tracking-widest ${
+              window.innerWidth <= 700 ? "text-base" : "text-2xl"
+            } flex justify-center items-center`}
+          >
             experience is optimizing...
           </div>
         </div>
