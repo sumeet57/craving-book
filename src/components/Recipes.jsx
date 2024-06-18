@@ -102,7 +102,7 @@ function Recipes() {
       onComplete: () => {
         setIsInfoBoxVisible(false);
         setMealInfo(null);
-        gsap.to(".box", {
+        gsap.to(".boxr", {
           filter: "blur(0px)",
         });
       },

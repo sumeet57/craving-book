@@ -22,7 +22,7 @@ function Home() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000); // Simulating a loading process for demonstration
+    }, 2000); // Simulating a loading process for demonstration
   }, []);
 
   return (
