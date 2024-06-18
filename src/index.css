@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::placeholder {
+  padding: 10px;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+@media (max-width: 700px) {
+  .box {
+    width: 140px;
+    height: 200px;
+  }
+  .boxr {
+    width: 140px;
+    height: 270px;
+  }
+  .boxr h3 {
+    font-size: 3.2vw;
+  }
+  .contr .bt {
+    padding: 5px;
+    font-size: 15px;
+  }
+  .page2 .cont {
+    gap: 20px;
+    padding: 20px;
+  }
+  ::placeholder {
+    padding: 5px;
+  }
+  .infobox {
+    width: 350px;
+    height: 500px;
+    border: white 2px solid;
+  }
+}
+@media (max-width: 400px) {
+  .box {
+    width: 120px;
+    height: 180px;
+  }
+  .boxr {
+    width: 120px;
+    height: 240px;
+  }
+  .contr .bt {
+    padding: 5px;
+    font-size: 10px;
+  }
+  .page2 .cont {
+    gap: 20px;
+    padding: 10px;
+  }
+  .infobox {
+    width: 260px;
+    height: 450px;
+    border: white 2px solid;
+  }
+}
